@@ -11,7 +11,7 @@ project(main)
 
 #add_subdirectory(./src)
 
-add_executable(main src/main.c)
+add_executable(main src/main.cpp)
 
 # Pull in our pico_stdlib which pulls in commonly used features
 #target_link_libraries(main pico_stdlib)
